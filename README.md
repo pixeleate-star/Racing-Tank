@@ -34,18 +34,18 @@ The project includes the CAD model, circuit connections, ESP32 code and the requ
 
 ## BOM – bill of materials
 
-| component | quantity | purpose |
-|-----------|:--------:|---------|
-| ESP32 development board | 1 | main controller |
-| FlySky FS-i6 transmitter | 1 | wireless controller |
-| FlySky receiver | 1 | receives transmitter signals |
-| BTS7960 motor driver | 2 | controls the motors |
-| Johnson DC motor | 2 | drives the left and right tracks |
-| Tank/belt tracks | 2 | robot movement |
-| Motor battery | 1 | powers the motors |
-| 5V buck converter | 1 | powers the control electronics |
-| jumper wires | as required | connections |
-| 3D printed parts | as required | tank body and mounts |
+| component | quantity | price (USD) | total (USD) | purpose |
+|---|:---:|---:|---:|---|
+| [ESP32 development board](https://robu.in/product/esp-wroom-32-wifi-bluetooth-networking-smart-component-development-board/) | 1 | $4.49 | $4.49 | main controller |
+| [FlySky FS-i6 + FS-iA6B receiver](https://robu.in/product/flysky-fs-i6-2-4g-6ch-ppm-rc-transmitter-with-fs-ia6b-receiver/) | 1 set | $65.10 | $65.10 | wireless controller and receiver |
+| [BTS7960 motor driver](https://robu.in/product/double-bts7960-43a-h-bridge-high-power-stepper-motor-driver-module/) | 2 | $3.75 | $7.50 | controls the motors |
+| [12V 600 RPM Johnson geared DC motor](https://robu.in/product/grade-a-quality-orange-12v-600-rpm-johnson-geared-dc-motor/) | 4 | $6.94 | $27.77 | drives the tracks |
+| [Track belt](https://www.flyrobo.in/track-belt-2cm-width) | 4 | $1.57 | $6.27 | tank movement |
+| [18650 3.7V 2600mAh Li-ion battery](https://robu.in/product/dmegc-inr18650-26e-3-7v-2600mah-li-ion-battery/) | 3 | $1.66 | $4.98 | power supply |
+| [3 × 18650 battery holder](https://robu.in/product/black-plastic-storage-box-case-holder-battery-3-x-18650-cell-box-without-cover/) | 1 | $0.28 | $0.28 | battery holder |
+| [LM2596 DC-DC buck converter](https://robu.in/product/lm2596s-with-smd-led-dc-dc-step-down-power-supply/) | 1 | $0.45 | $0.45 | regulates power for electronics |
+| Jumper wires | as required | — | — | connections |
+| 3D printed parts | as required | — | — | tank body and mounts |
 
 ## circuit connections
 
