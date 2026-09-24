@@ -389,4 +389,4 @@ https://drive.google.com/file/d/1SPlf28peBSgvbxt1lPk7T9hTLhPETCV-/view?usp=shari
 
 This video shows the tank fully assembled and being controlled using the FS-i6 transmitter.
 
-One correction from the earlier wiring: **R_EN and L_EN should not be treated as ESP32 3.3V outputs if your BTS7960 board requires 5V logic.** For this README I've kept them at the regulated **5V** logic supply.
+One correction from the earlier wiring: **R_EN and L_EN should not be treated as ESP32 3.3V outputs if your BTS7960 board requires 5V logic.** For in my case I've kept them at the regulated **5V** logic supply.
