@@ -9,6 +9,13 @@ This allows the tank to move forward, backward, turn left and right, and also pe
 
 The project includes the CAD model, circuit connections, ESP32 code and the required setup to build and control the tank.
 
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/3edc883a-2932-4535-95ff-ec60669f9fff" />
+
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/ba45352c-04a1-4995-8dad-dfd3294adb78" />
+
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/30ee5589-7f86-4ce0-ad7f-ee38c01ff3c2" />
+
+
 ## features
 
 - ESP32 as the main controller
@@ -41,6 +48,10 @@ The project includes the CAD model, circuit connections, ESP32 code and the requ
 | 3D printed parts | as required | tank body and mounts |
 
 ## circuit connections
+
+<img width="665" height="462" alt="image" src="https://github.com/user-attachments/assets/5c86d090-9339-448b-9809-868dd8464483" />
+
+circuit diagram : https://app.cirkitdesigner.com/project/9e32e160-422e-4076-8aea-6d43e6693b43
 
 The ESP32 receives the throttle and steering signals from the FlySky receiver.
 
@@ -321,7 +332,9 @@ Start with the tank lifted off the ground for the first motor test.
 
 ## CAD model
 
-<img width="1600" height="1200" alt="Tank CAD model" src="YOUR_CAD_IMAGE_LINK" />
+<img width="1200" height="805" alt="Screenshot 2026-09-23 at 9 23 01 PM" src="https://github.com/user-attachments/assets/c722c1a5-b56d-484d-b7c1-84de53899c71" />
+
+<img width="1001" height="700" alt="image" src="https://github.com/user-attachments/assets/c5b48d2f-895f-4297-8115-5cc2050dc7e9" />
 
 The CAD model contains the tank chassis, motor mounts, track system and mounting locations for the electronics.
 
@@ -372,9 +385,8 @@ Racing tank
 
 ## Demo
 
-[Add your demo video link here]
+https://drive.google.com/file/d/1SPlf28peBSgvbxt1lPk7T9hTLhPETCV-/view?usp=sharing
 
 This video shows the tank fully assembled and being controlled using the FS-i6 transmitter.
-```
 
 One correction from the earlier wiring: **R_EN and L_EN should not be treated as ESP32 3.3V outputs if your BTS7960 board requires 5V logic.** For this README I've kept them at the regulated **5V** logic supply.
