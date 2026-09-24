@@ -1,0 +1,12 @@
+component,quantity,price_usd,total_usd,purpose,link
+ESP32 development board,1,4.49,4.49,main controller,https://robu.in/product/esp-wroom-32-wifi-bluetooth-networking-smart-component-development-board/
+FlySky FS-i6 + FS-iA6B receiver,1 set,65.10,65.10,wireless controller and receiver,https://robu.in/product/flysky-fs-i6-2-4g-6ch-ppm-rc-transmitter-with-fs-ia6b-receiver/
+BTS7960 motor driver,2,3.75,7.50,controls the motors,https://robu.in/product/double-bts7960-43a-h-bridge-high-power-stepper-motor-driver-module/
+12V 600 RPM Johnson geared DC motor,4,6.94,27.77,drives the tracks,https://robu.in/product/grade-a-quality-orange-12v-600-rpm-johnson-geared-dc-motor/
+Track belt,4,1.57,6.27,tank movement,https://www.flyrobo.in/track-belt-2cm-width
+18650 3.7V 2600mAh Li-ion battery,3,1.66,4.98,power supply,https://robu.in/product/dmegc-inr18650-26e-3-7v-2600mah-li-ion-battery/
+3 x 18650 battery holder,1,0.28,0.28,battery holder,https://robu.in/product/black-plastic-storage-box-case-holder-battery-3-x-18650-cell-box-without-cover/
+LM2596 DC-DC buck converter,1,0.45,0.45,regulates power for electronics,https://robu.in/product/lm2596s-with-smd-led-dc-dc-step-down-power-supply/
+Jumper wires,as required,,,connections,
+3D printed parts,as required,,,tank body and mounts,
+TOTAL,,,116.84,,
